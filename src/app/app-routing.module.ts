@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeroDetailsComponent } from './page/hero-details/hero-details.component';
+import { HeroDetailsComponent } from './pages/hero-details/hero-details.component';
 import { HeroesComponent } from './pages/heroes/heroes.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 
