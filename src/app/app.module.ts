@@ -16,7 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 import { HeroCardComponent } from './components/hero-card/hero-card.component';
 import { HttpClientModule } from '@angular/common/http';
-import { HeroDetailsComponent } from './page/hero-details/hero-details.component';
+import { HeroDetailsComponent } from './pages/hero-details/hero-details.component';
 
 @NgModule({
     declarations: [
