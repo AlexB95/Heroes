@@ -28,6 +28,7 @@
         </ul>
     </mat-card-content>
     <mat-card-actions>
-        <a mat-button [routerLink]="">LIKE</a>
+        <button mat-button [routerLink]="['/hero', hero.id]">Button to see more</button>
+        <a mat-button href="/hero/{{hero.id}}">Link to see more</a>
     </mat-card-actions>
 </mat-card>
